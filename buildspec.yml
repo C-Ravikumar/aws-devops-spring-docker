@@ -9,7 +9,8 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
+
 artifacts:
   files:
-    - target/aws-springboot.jar
+    - target/aws-springboot-1.0.jar
   discard-paths: yes
